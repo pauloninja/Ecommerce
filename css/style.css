@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-   /*  box-sizing: border-box;
-    scroll-behavior: smooth; */
     font-family: 'Roboto', sans-serif;
     list-style: none;
     text-decoration: none;
@@ -91,30 +89,42 @@ a{
     padding: 10px;
 }
 
+.Destaque{
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
 
+}
 
+/*Formulario*/
+.main{
+  width: 100%;
+}
+.main input,
+.main input::-webkit-input-placeholder {
+  width: 30%;
+   font-size: 15px;
+   padding-top: 3px;
+}
+.main-center{
+  margin-top: 0px;
+   padding: 10px 40px;
+ background:#13678A;
+     color: #ffffff;
+     font-weight: bolder;
+   text-shadow: none;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+span.input-group-addon i {
+   color: #009edf;
+   font-size: 17px;
+}
+textarea{
+  width: 100%;
+}
 
 /*Rodape*/
-
-
 .context-dark,
 .bg-gray-dark,
 .bg-primary {
@@ -166,7 +176,7 @@ a{
     color: rgba#25d366;
   }
   .social-container .col {
-    border: 1px solid #25d366;
+    border: 1px solid #000000;
   }
   .nav-list li a:before {
     content: "\f14f";
