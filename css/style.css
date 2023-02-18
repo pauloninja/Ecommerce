@@ -8,6 +8,14 @@
     text-decoration: none;
 }
 
+.color-primary{
+    background-color: #13678A;
+}
+
+.color-grenn{
+    color: #9AEBA3;
+}
+
 :root{
     font-variant: var(#012030);
     font-variant: var(#13678A);
@@ -21,5 +29,237 @@
 
 /* Cabeçalho*/
 
+.logo-1{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.nav-link{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: -30px;
+}
+
+.nav-link:hover{
+    color: #25d366;
+}
+
+.navbar-collapse{
+    padding-top: 100px;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+/*Carrousel*/
+.img-car {
+    width: 80%;
+    height: 400px;
+  }
+
+.p-carousel{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.titulo-carrousel{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.active{
+    background-color: blue;
+    color: red;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Rodape*/
+
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+  color:black;
+  background-color: #13678A;
+  font-size: 18px;
+  font-weight: bolder;
+
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+  color: black;
+  font-weight: bolder;
+}
+
+.footer-classic a:hover {
+    color: #25d366;
+  }
+  
+  .nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba#25d366;
+  }
+  .social-container .col {
+    border: 1px solid #25d366;
+  }
+  .nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #020202;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.22s ease;
+  }
+
+  /*Animação*/
+  
+.kenburns-bottom-left {
+    -webkit-animation: kenburns-bottom-left 5s ease-out both;
+    animation: kenburns-bottom-left 5s ease-out both;
+  }
+  
+  @-webkit-keyframes kenburns-bottom-left {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+      transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 16% 84%;
+      transform-origin: 16% 84%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(-20px, 15px);
+      transform: scale(1.25) translate(-20px, 15px);
+      -webkit-transform-origin: left bottom;
+      transform-origin: left bottom;
+    }
+  }
+  @keyframes kenburns-bottom-left {
+    0% {
+      -webkit-transform: scale(1) translate(0, 0);
+      transform: scale(1) translate(0, 0);
+      -webkit-transform-origin: 16% 84%;
+      transform-origin: 16% 84%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translate(-20px, 15px);
+      transform: scale(1.25) translate(-20px, 15px);
+      -webkit-transform-origin: left bottom;
+      transform-origin: left bottom;
+    }
+  }
+  
+  .vibrate-1 {
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
+    animation: vibrate-1 0.3s linear infinite both;
+  }
+  
+  @-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+      transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+      transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+      transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+      transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+      transform: translate(0);
+    }
+  }

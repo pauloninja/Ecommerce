@@ -24,34 +24,240 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
       integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer">
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <header>
+      <nav class="navbar navbar-expand-lg color-primary">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo.jpg" class="logo-1" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-baseline">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NOSSOS PRODUTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">ENTRE EM CONTATO</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--   <?php if (isset($avisotxt)) : ?>
+            <div class="alert alert-primary" role="alert">
+              <?php  echo $avisotxt ?>
+            </div>
+          <?php endif; ?> -->
+
+    <div class="container mt-3">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/slide-1.jpg"
+              class="d-block w-100 img-car kenburns-bottom-left"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulo-carrousel">FASHION STORES</h5>
+              <p class="p-carousel">Somos Especialista em Atendimento</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/destaque.jpg"
+              class="d-block w-100 img-car kenburns-bottom-left"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulo-carrousel">FASHION STORES</h5>
+              <p class="p-carousel">Temos Varias Opôes de Roupas</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/destaque-2.jpg"
+              class="d-block w-100 img-car kenburns-bottom-left"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulo-carrousel">FASHION STORES</h5>
+              <p class="p-carousel">
+                Temos Todos Tipos de Moda para sua Estação
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <footer
+      id="#contato"
+      class="section footer-classic context-dark bg-image color-dark"
+    >
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-md-4 col-xl-5">
+            <div class="pr-xl-4 pt-4">
+              <a class="brand" href="index.html">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.066838657844!2d-45.890416376127725!3d-23.228344155167886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a96997f09f3%3A0x52e19b7a613ec971!2sAv.%20Perseu%20-%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%2C%20SP%2C%2012230-470!5e0!3m2!1spt-BR!2sbr!4v1668438791226!5m2!1spt-BR!2sbr"
+                  width="90%"
+                  height="250"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe
+              ></a>
+              <p>
+                Sempre Buscando a Solução Para Atendente-lo Melhor com
+                excelência
+              </p>
+              <!-- Rights-->
+              <p class="rights">
+                <span>©  </span><span class="copyright-year">2022</span
+                ><span> </span><span>Waves</span><span>. </span
+                ><span>All Rights Reserved.</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 pt-4">
+            <h5>Contacts</h5>
+            <dl class="contact-list">
+              <dt>Endereço:</dt>
+              <dd>braz cubras,SÃO PAULO</dd>
+            </dl>
+            <dl class="contact-list">
+              <dt>email:</dt>
+              <dd><a href="mailto:#">lojafaschion@gmail.com</a></dd>
+            </dl>
+            <dl class="contact-list">
+              <dt>TELOFONE (12)0000-0000:</dt>
+              <dd>
+                <a href="tel:#">https:/lojafashion.com</a> <span>or</span>
+                <a href="tel:#">https:/shoptudo.com</a>
+              </dd>
+            </dl>
+          </div>
+          <div class="col-md-4 col-xl-3 pt-4">
+            <h5>Links</h5>
+            <ul class="nav-list">
+              <li><a href="#">SOBRE</a></li>
+              <li><a href="#">PROJETOS</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTATO</a></li>
+              <li><a href="#">PREÇOS</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </nav>
+      <div class="row no-gutters social-container">
+        <div class="col">
+          <a class="social-inner" href="#"
+            ><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a
+          >
+        </div>
+        <div class="col">
+          <a class="social-inner" href="#"
+            ><span class="icon mdi mdi-instagram"></span
+            ><span>instagram</span></a
+          >
+        </div>
+        <div class="col">
+          <a class="social-inner" href="#"
+            ><span class="icon mdi mdi-twitter"></span><span>twitter</span></a
+          >
+        </div>
+        <div class="col">
+          <a class="social-inner" href="#"
+            ><span class="icon mdi mdi-youtube-play"></span
+            ><span>google</span></a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" id="go-top" class="seta-topo" style="display: block"
+      ><i class="fa-2x fas fa-arrow-up"></i
+    ></a>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -59,4 +265,3 @@
     ></script>
   </body>
 </html>
-
