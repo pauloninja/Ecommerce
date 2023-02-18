@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    font-variant: var(#012030);
+    font-variant: var(#13678A);
+    font-variant: var(#9AEBA3);
+    font-variant: var(#14140F);
+    font-variant: var(#053D38);
+    font-variant: var(#34675C);
+    font-variant: var(#A3CCAB);
+    font-variant: var(#F26800);
+}
+
+/* Cabeçalho*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.logo img{
+    width: 200px;
+} 
+
+.navmenu{
+    display: flex;
+}
+ 
+.navmenu a{
+    color: #14140F;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #F26800;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+} 
+
+.nav-icon i{
+    margin-right: 20px;
+    color: #14140F;
+    font-size: 25px;
+    transition: all .42s ease;
+ }  
+
+.nav-icon i:hover{
+    transform: scale(1);
+    color: #F26800;
+ } 
+
+ #menu-icon{
+    font-size:10px;
+    color: #14140F;
+    z-index: 10001;
+    cursor: pointer;
+ }  
