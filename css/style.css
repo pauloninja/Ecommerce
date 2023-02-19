@@ -13,7 +13,7 @@ a{
 }
 
 .color-primary{
-    background-color: #13678A;
+    background-color: black;
 }
 
 .color-grenn{
@@ -40,7 +40,7 @@ a{
 }
 
 .nav-link{
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: bolder;
     padding-top: -30px;
@@ -110,7 +110,7 @@ a{
 .main-center{
   margin-top: 0px;
    padding: 10px 40px;
- background:#13678A;
+ background:black;
      color: #ffffff;
      font-weight: bolder;
    text-shadow: none;
@@ -128,8 +128,8 @@ textarea{
 .context-dark,
 .bg-gray-dark,
 .bg-primary {
-  color:black;
-  background-color: #13678A;
+  color:white;
+  background-color: black;
   font-size: 18px;
   font-weight: bolder;
 
@@ -138,7 +138,7 @@ textarea{
 .footer-classic a,
 .footer-classic a:focus,
 .footer-classic a:active {
-  color: black;
+  color: white;
   font-weight: bolder;
 }
 
@@ -176,7 +176,7 @@ textarea{
     color: rgba#25d366;
   }
   .social-container .col {
-    border: 1px solid #000000;
+    border: 1px solid white;
   }
   .nav-list li a:before {
     content: "\f14f";
